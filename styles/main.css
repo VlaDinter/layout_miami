@@ -32,7 +32,6 @@
   background-color: #f7f8ff;
   border: 1px solid #fff;
   border-radius: 8px;
-  outline: none;
   -webkit-transition: -webkit-box-shadow 0.3s;
   transition: -webkit-box-shadow 0.3s;
   transition: box-shadow 0.3s;
@@ -572,6 +571,13 @@ figure {
 .testimonials__name {
   margin-bottom: 4px; }
 
+.testimonials__link {
+  color: #0075ff;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
+  .testimonials__link:hover {
+    color: #3e3e3e; }
+
 .testimonials__position {
   color: #9fadc2;
   font-size: 14px;
@@ -601,7 +607,12 @@ figure {
   margin-bottom: 8px; }
 
 .contacts__contact {
-  margin-bottom: 24px; }
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  margin-bottom: 24px;
+  color: #3e3e3e; }
+  .contacts__contact:hover {
+    color: #0075ff; }
   .contacts__contact--street {
     margin-bottom: 0; }
 
@@ -615,6 +626,10 @@ figure {
           flex-direction: column; }
 
 .contacts__textarea {
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
   height: 144px;
   margin-bottom: 16px;
   padding: 17px;
@@ -622,8 +637,10 @@ figure {
           box-sizing: border-box;
   background-color: #f7f8ff;
   border: 1px solid #fff;
-  border-radius: 8px;
-  outline: none; }
+  border-radius: 8px; }
+  .contacts__textarea:hover {
+    -webkit-box-shadow: 0 13px 27px rgba(0, 83, 181, 0.46);
+            box-shadow: 0 13px 27px rgba(0, 83, 181, 0.46); }
 
 @media (min-width: 1260px) {
   .page-main__contacts {
