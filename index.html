@@ -56,7 +56,13 @@
 
         <div class="navigation__contacts-wrapper">
           <p class="navigation__phone-number">+1 234 555-55-55</p>
-          <a class="navigation__call" href="tel:+12345555555">call to order</a>
+          <a
+            class="navigation__call"
+            href="tel:+12345555555"
+            tabindex="1"
+          >
+            call to order
+          </a>
         </div>
       </nav>
     </header>
@@ -177,6 +183,7 @@
               type="text"
               name="name"
               placeholder="Name"
+              autocomplete="off"
               required
             >
             <input
@@ -184,6 +191,7 @@
               type="tel"
               name="phone"
               placeholder="Phone"
+              autocomplete="off"
               required
             >
             <input
@@ -191,6 +199,7 @@
               type="email"
               name="email"
               placeholder="Email"
+              autocomplete="off"
               required
             >
             <button class="form__button" type="submit">Consultation</button>
@@ -276,6 +285,7 @@
               type="text"
               name="name"
               placeholder="Name"
+              autocomplete="off"
               required
             >
             <input
@@ -283,6 +293,7 @@
               type="email"
               name="email"
               placeholder="Email"
+              autocomplete="off"
               required
             >
             <textarea

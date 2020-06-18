@@ -388,6 +388,13 @@ button {
             -ms-flex-order: 2;
                 order: 2;
         margin-bottom: 0; } }
+  .navigation__link {
+    font-size: 22px;
+    line-height: 22px; }
+    @media (min-width: 1260px) {
+      .navigation__link {
+        font-size: 12px;
+        line-height: 16px; } }
   .navigation__item {
     padding: 16px 0; }
     @media (min-width: 1260px) {
@@ -401,13 +408,6 @@ button {
       transition: color 0.3s; }
       .navigation__item:not(.navigation__item--active) .navigation__link:hover {
         color: #9fadc2; }
-  .navigation__link {
-    font-size: 22px;
-    line-height: 22px; }
-    @media (min-width: 1260px) {
-      .navigation__link {
-        font-size: 12px;
-        line-height: 16px; } }
   @media (min-width: 1260px) {
     .navigation__contacts-wrapper {
       display: -webkit-box;
