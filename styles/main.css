@@ -92,7 +92,8 @@ cite {
   font-style: normal; }
 
 button {
-  border: none; }
+  border: none;
+  cursor: pointer; }
 
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
@@ -557,8 +558,7 @@ button {
     font-weight: bold;
     font-size: 16px;
     line-height: 14px;
-    color: #0075ff;
-    cursor: default; }
+    color: #0075ff; }
     .gallery__button:hover {
       background-color: #0075ff; }
     .gallery__button:hover {
